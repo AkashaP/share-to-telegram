@@ -8,8 +8,8 @@
   "author": "Albicant",
   "homepage_url": "https://github.com/albicant",
   "icons": {
-    "48": "icons/Apps-Telegram-48.png",
-    "96": "icons/Apps-Telegram-96.png"
+    "48": "icons/telegram-desktop-candy.png",
+    "96": "icons/telegram-desktop-candy.png"
   },
 
   "permissions": [

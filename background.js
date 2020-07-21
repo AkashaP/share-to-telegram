@@ -3,7 +3,7 @@ var curTabId = null;
 
 function shareToTelegram(data) {
     let shareToTelegramTab = browser.tabs.create({
-        url: 'https://telegram.me/share/url?url=' + data
+        url: 'tg://msg_url?url=' + data
     });
     shareToTelegramTab.then((tab) => {
         shareToTelegramTabId = tab.id;
